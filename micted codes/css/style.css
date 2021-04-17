@@ -609,7 +609,7 @@ body {
 }
 
 .card__picture--3 {
-  background-image: url(../img/winter.jpg);
+  background-image: url(../img/space.jpg);
 }
 
 .card__heading {
@@ -912,8 +912,8 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 450px, 0 100%);
-          clip-btnpath: polygon(0 0, 100% 0, 100% 450px, 0 100%);
+  -webkit-clip-path: polygon(100% 0, 100% 43%, 100% 96%, 76% 84%, 48% 98%, 18% 86%, 0 97%, 0 0);
+         clip-path: polygon(100% 0, 100% 43%, 100% 96%, 76% 84%, 48% 98%, 18% 86%, 0 97%, 0 0);
  
 }
 
@@ -923,8 +923,8 @@ body {
 @media (max-width: 56.25em) {
   .header {
     
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
+    -webkit-clip-path: polygon(100% 0, 100% 43%, 100% 96%, 76% 87%, 48% 98%, 18% 87%, 0 97%, 0 0);
+         clip-path: polygon(100% 0, 100% 43%, 100% 96%, 76% 87%, 48% 98%, 18% 86%, 0 97%, 0 0);
             
   }
 }
@@ -933,8 +933,8 @@ body {
 @media (max-width: 75em) {
   .header {
     
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
+    -webkit-clip-path: polygon(100% 0, 100% 43%, 100% 96%, 76% 87%, 48% 98%, 24% 87%, 0 97%, 0 0);
+           clip-path: polygon(100% 0, 100% 43%, 100% 96%, 76% 87%, 48% 98%, 24% 87%, 0 97%, 0 0);
             
             
   }
@@ -1059,15 +1059,18 @@ body {
   background-image: linear-gradient(
     to right bottom,
      #1ed327, #50da7e, #21da9c);
+     padding: 8rem;
  
-  padding:6rem;
-  
+     -webkit-clip-path: polygon(51% 0, 76% 18%, 100% 0, 100% 100%, 0 100%, 0 0, 24% 17%);
+     clip-path: polygon(51% 0, 76% 18%, 100% 0, 100% 100%, 0 100%, 0 0, 24% 17%);   
+         
 }
 
 @media (max-width: 56.25em) {
   .footer {
     
     padding: 3rem;
+    
   }
 }
 

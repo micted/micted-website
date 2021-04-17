@@ -1,9 +1,9 @@
 <?php
 
-$db['db_host'] = "localhost";
-$db['db_user'] = "root";
-$db['db_pass'] = "";
-$db['db_name'] = "useraccounts";
+$db['db_host'] = "sql304.epizy.com";
+$db['db_user'] = "epiz_28412872";
+$db['db_pass'] = "Q875yaQQsM";
+$db['db_name'] = "epiz_28412872_useraccounts";
 
 foreach($db as $key => $value) {
 
