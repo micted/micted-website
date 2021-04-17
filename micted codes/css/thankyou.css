@@ -1,0 +1,91 @@
+
+
+html {
+    font-size: 62.5%;
+  }
+  
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%;
+    }
+  }
+  
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%;
+    }
+  }
+  
+  @media (max-width: 112.5em) {
+    html {
+      font-size: 75%;
+    }
+  }
+
+
+
+
+  
+.Sign-up-form2 h1 {
+    max-width: 380px;
+    font-size: 3em;
+    text-align: center;
+    font-family: Agency FB;
+    color: rgb(242, 247, 243);
+    margin-top: 80px;
+    margin-left: 320px;
+  }
+
+  @media (max-width: 56.25em) {
+  .Sign-up-form2 h1 {
+    max-width: 190px;
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Agency FB;
+    color: rgb(242, 247, 243);
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+}
+
+
+  .list {
+    position: absolute;
+    
+    left: 50%;
+    padding: 10px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    list-style: none;
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    margin-top: 90px;
+  }
+
+  
+
+.item2 {
+    background-color: rgb(72, 136, 219);
+    
+}
+
+@media (max-width: 56.25em) {
+.item2 {
+  background-color: rgb(72, 136, 219);
+  padding: 5px;
+  
+}
+}
+
+.item3 {
+    background-color: rgb(216, 81, 81);
+    
+}
+
+@media (max-width: 56.25em) {
+  .item3 {
+    background-color: rgb(216, 81, 81);
+    padding: 5px;
+    
+}
+}
